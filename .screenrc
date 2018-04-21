@@ -1,0 +1,8 @@
+# Disable startup message
+startup_message off
+
+# Set a large scrollback buffer
+defscrollback 32000
+
+# UTF-8 enabled by default (`screen -U`)
+defutf8 on
