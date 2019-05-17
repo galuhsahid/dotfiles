@@ -49,9 +49,12 @@ complete -W "NSGlobalDomain" defaults;
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
+# Set npm global
+export PATH=~/.npm-global/bin:$PATH
+
 # QUOTEY configuration
 # http://github.com/galuhsahid/quotey ;)
-export QUOTEY_CUSTOM_FOLDER="/Users/galuh.sahid/Documents/personal/quotes"
+export QUOTEY_CUSTOM_FOLDER="/Users/$USER/Documents/personal/quotes"
 quotey -c "stoicism.json"
 
 # Set CLICOLOR if you want Ansi Colors in iTerm2
@@ -59,3 +62,6 @@ export CLICOLOR=1
 
 # Set colors to match iTerm2 Terminal Colors
 export TERM=xterm-256color
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

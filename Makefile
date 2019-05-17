@@ -1,7 +1,7 @@
 DIR = '${HOME}/Documents/dotfiles'
 
 .PHONY: all
-all: dotfiles test
+all: dotfiles
 
 .PHONY: dotfiles
 dotfiles:
