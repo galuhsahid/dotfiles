@@ -69,3 +69,6 @@ alias copypubkey="pbcopy < ~/.ssh/id_rsa.pub"
 
 # Copy private key
 alias copyprivkey="pbcopy < ~/.ssh/id_rsa"
+
+# List my gpg keys
+alias mygpgkeys="gpg --list-secret-keys --keyid-format LONG"
