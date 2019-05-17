@@ -1,0 +1,41 @@
+{
+    "name": "My Favorite Stoicism Quotes",
+    "quotes": [
+        {
+            "content": "If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it; and this you have the power to revoke at any moment.", 
+            "title": "Marcus Aurelius" 
+        },
+        {
+            "content": "It is the power of the mind to be unconquerable.", 
+            "title": "Seneca" 
+        },
+        {
+            "content": "What really frightens and dismays us is not external events themselves, but the way in which we think about them. It is not things that disturb us, but our interpretation of their significance.", 
+            "title": "Epictetus" 
+        },
+        {
+            "content": "Sometimes even to live is an act of courage.", 
+            "title": "Seneca" 
+        },
+        {
+            "content": "Difficulties strengthen the mind, as labor does the body.", 
+            "title": "Seneca" 
+        },
+        {
+            "content": "As is a tale, so is life: not how long it is, but how good it is, is what matters.", 
+            "title": "Seneca" 
+        },
+        {
+            "content": "If a man knows not to which port he sails, no wind is favorable.", 
+            "title": "Seneca" 
+        },
+        {
+            "content": "Only time can heal what reason cannot.", 
+            "title": "Seneca" 
+        },
+        {
+            "content": "Timendi causa est nescire - Ignorance is the cause of fear.", 
+            "title": "Seneca" 
+        }
+    ]
+}

@@ -54,7 +54,7 @@ export PATH=~/.npm-global/bin:$PATH
 
 # QUOTEY configuration
 # http://github.com/galuhsahid/quotey ;)
-export QUOTEY_CUSTOM_FOLDER="/Users/$USER/Documents/personal/quotes"
+export QUOTEY_CUSTOM_FOLDER="${HOME}/Documents/dotfiles/quotes"
 quotey -c "stoicism.json"
 
 # Set CLICOLOR if you want Ansi Colors in iTerm2
