@@ -185,9 +185,3 @@
 [url "git://gist.github.com/"]
 
 insteadOf = "gist:"
-[user]
-	name = Galuh Sahid
-	email = galuh.sahid@midtrans.com
-	signingkey = BF3411D6556EA3B3
-[gpg]
-	program = gpg
