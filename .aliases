@@ -72,3 +72,6 @@ alias copyprivkey="pbcopy < ~/.ssh/id_rsa"
 
 # List my gpg keys
 alias mygpgkeys="gpg --list-secret-keys --keyid-format LONG"
+
+# Get current external IP
+alias myexternalip="curl https://canihazip.com/s"
